@@ -2,20 +2,20 @@
     "name": "dvc/contao-adjust-plenta-jobs-sitemap-by-employment-type",
     "description": "Adjust job entries in Contao’s XML sitemap to point to employment-type specific jump-to pages.",
     "type": "contao-bundle",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "require": {
-        "php": ">=8.1",
-        "contao/core-bundle": "^4.13",
-        "plenta/contao-jobs-basic-bundle": "2.*"
+        "php": ">=8.3",
+        "contao/core-bundle": "^5.3",
+        "plenta/contao-jobs-basic-bundle": "3.*"
     },
     "conflict": {
-        "plenta/contao-jobs-basic-bundle": ">=3"
+        "plenta/contao-jobs-basic-bundle": ">=4"
     },
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
-            "name": "Jonathan Hermann",
-            "email": "jh@d-v-c.net"
+            "name": "Timo Werlich",
+            "email": "info@websailing.de"
         }
     ],
     "autoload": {
