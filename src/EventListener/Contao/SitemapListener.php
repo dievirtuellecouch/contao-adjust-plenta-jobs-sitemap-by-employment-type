@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace DVC\AdjustPlentaJobsSitemapByEmploymentType\EventListener\Contao;
 
-use Contao\Config;
 use Contao\CoreBundle\Event\SitemapEvent;
 use Contao\ModuleModel;
 use Contao\PageModel;
@@ -140,7 +139,7 @@ class SitemapListener
             $alias = (string) $translation['alias'];
         }
 
-        return (Config::get('useAutoItem') ? '/' : '/items/').($alias ?: $job->id);
+        return '/'.($alias ?: $job->id);
     }
 
     /**
