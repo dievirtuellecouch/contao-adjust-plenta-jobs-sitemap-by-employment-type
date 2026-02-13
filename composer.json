@@ -2,7 +2,7 @@
     "name": "dvc/contao-adjust-plenta-jobs-sitemap-by-employment-type",
     "description": "Adjust job entries in Contao’s XML sitemap to point to employment-type specific jump-to pages.",
     "type": "contao-bundle",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "require": {
         "php": ">=8.2",
         "contao/core-bundle": "^5.3",
